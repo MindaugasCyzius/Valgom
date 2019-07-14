@@ -1,12 +1,15 @@
-import React, {Component} from 'react';
-import './App.scss'; 
+import React, {Component} from 'react'
+import { BrowserRouter } from 'react-router-dom'
+import Navbar from './components/layout/Navbar' 
+import './App.scss'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <h1>Valgom</h1>
-      </div>
+      <BrowserRouter>
+      <div className="App"></div>
+      <Navbar /> 
+      </BrowserRouter>
     );
   } 
 }
