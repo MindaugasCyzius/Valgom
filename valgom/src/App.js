@@ -1,12 +1,11 @@
 import React, {Component} from 'react';
-import './App.scss';
-import Buttonas from "./Buttonas/Buttonas"
+import './App.scss'; 
 
 class App extends Component {
-  render(){
-    return(
+  render() {
+    return (
       <div className="App">
-        <Buttonas/>
+        <h1>Valgom</h1>
       </div>
     );
   } 
