@@ -1,10 +1,12 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
-     
+      <p>React app</p>
+      <input type="text"/>
+      <input type="date"/>
     </div>
   );
 }
